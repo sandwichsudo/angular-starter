@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="120"
+   height="120"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="sprite.svg"
+   inkscape:export-filename="D:\dev\portfolio-prototype\src\app\assets\images\sprite.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs4">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3988">
+      <rect
+         style="fill:#212121;fill-opacity:0.47368421;stroke:none"
+         id="rect3990"
+         width="95"
+         height="90"
+         x="3.9285731"
+         y="2.8571603" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4027">
+      <rect
+         style="fill:#ffffff;fill-opacity:0.47368421;stroke:none"
+         id="rect4029"
+         width="100"
+         height="80"
+         x="0"
+         y="9.9999704" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4071">
+      <rect
+         style="fill:#ffffff;fill-opacity:0.47368421;stroke:#1a1a1a;stroke-width:1.05411339"
+         id="rect4073"
+         width="89.945885"
+         height="88.945885"
+         x="4.3127594"
+         y="2.7774785" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3850">
+      <rect
+         style="fill:#ff0000;fill-opacity:1;stroke:none"
+         id="rect3852"
+         width="50.533623"
+         height="45.357002"
+         x="24.404041"
+         y="27.067444" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="7.919596"
+     inkscape:cx="49.160915"
+     inkscape:cy="67.343768"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:window-width="1113"
+     inkscape:window-height="906"
+     inkscape:window-x="639"
+     inkscape:window-y="78"
+     inkscape:window-maximized="0"
+     guidetolerance="20"
+     objecttolerance="20"
+     gridtolerance="10">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2985"
+       empspacing="5"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-932.36217)">
+    <rect
+       style="fill:#ff8080;fill-opacity:1;stroke:none"
+       id="rect2987-1-0"
+       width="40"
+       height="40"
+       x="80.009766"
+       y="973.0152" />
+    <rect
+       style="fill:#ff8080;fill-opacity:1;stroke:none"
+       id="rect2987-48"
+       width="40"
+       height="40"
+       x="0.2436081"
+       y="1012.3591" />
+    <rect
+       style="fill:#ff8080;fill-opacity:1;stroke:none"
+       id="rect2987-1-8"
+       width="40"
+       height="40"
+       x="80.362556"
+       y="1012.3591" />
+    <rect
+       style="fill:#ff8080;fill-opacity:1;stroke:none"
+       id="rect2987-7-2"
+       width="40"
+       height="40"
+       x="40.303085"
+       y="1012.3591" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       id="rect3838-1"
+       width="30"
+       height="4.3750062"
+       x="5.0892868"
+       y="959.45135"
+       ry="2.1875031" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       id="rect3838-1-5"
+       width="30"
+       height="4.3750062"
+       x="5.0892868"
+       y="950.21802"
+       ry="2.1875031" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       id="rect3838-1-2"
+       width="30"
+       height="4.3750062"
+       x="5.0892868"
+       y="940.98468"
+       ry="2.1875031" />
+    <g
+       id="g3979"
+       transform="matrix(0.35818693,0,0,0.35818693,42.34835,934.37974)"
+       clip-path="url(#clipPath3988)"
+       style="fill:#ffffff">
+      <path
+         id="path3967"
+         d="M 89.613,48.892 52.229,7.617 C 51.566,6.904 50.638,6.5 49.666,6.5 48.694,6.5 47.765,6.904 47.103,7.617 L 8.511,49.117 C 7.563,50.137 7.309,51.621 7.865,52.899 8.422,54.174 9.682,55 11.074,55 H 21 v 30 c 0,3.313 2.592,6 5.906,6 H 30 32 32.667 34 c 2.209,0 4,-1.791 4,-4 V 72 c 0,-2.209 1.791,-4 4,-4 h 14 c 2.209,0 4,1.791 4,4 v 15 c 0,2.209 1.791,4 4,4 h 6.905 C 74.219,91 77,88.313 77,85 V 55 h 10.259 c 0.008,10e-4 0.015,0 0.02,0 1.934,0 3.5,-1.566 3.5,-3.5 -10e-4,-1.036 -0.451,-1.967 -1.166,-2.608 z"
+         inkscape:connector-curvature="0"
+         style="fill:#ffffff" />
+      <text
+         id="text3969"
+         font-weight="bold"
+         font-size="5px"
+         y="115"
+         x="0"
+         style="font-size:5px;font-weight:bold;fill:#ffffff;font-family:'\'Helvetica Neue\', Helvetica, Arial-Unicode, Arial, Sans-serif'">Created by Melvin Poppelaars</text>
+      <text
+         id="text3971"
+         font-weight="bold"
+         font-size="5px"
+         y="120"
+         x="0"
+         style="font-size:5px;font-weight:bold;fill:#ffffff;font-family:'\'Helvetica Neue\', Helvetica, Arial-Unicode, Arial, Sans-serif'">from the Noun Project</text>
+    </g>
+    <g
+       id="g4020"
+       transform="matrix(0.32376065,0,0,0.32376065,85,935.1297)"
+       clip-path="url(#clipPath4027)"
+       style="fill:#ffffff">
+      <path
+         id="path4008"
+         d="M 97.71,11.744 C 97.247,11.223 96.55,10.982 95.859,11.105 L 3.182,27.871 c -0.771,0.14 -1.39,0.717 -1.583,1.476 -0.193,0.76 0.076,1.562 0.687,2.052 l 21.825,17.512 v 31.954 c 0,0.76 0.43,1.453 1.11,1.791 0.681,0.34 1.494,0.261 2.098,-0.197 L 47.611,68.834 68.287,88.727 c 0.378,0.366 0.879,0.563 1.392,0.563 0.167,0 0.335,-0.021 0.5,-0.063 0.675,-0.175 1.21,-0.688 1.413,-1.354 L 98.129,13.656 c 0.203,-0.666 0.045,-1.391 -0.419,-1.912 z m -55.147,52.23 2.131,2.052 -9.246,6.179 7.115,-8.231 z M 40.906,59.211 C 40.594,59.5 28.111,74.714 28.111,74.714 V 47.952 c 0,-0.008 -0.002,-0.017 -0.003,-0.025 L 88.752,18.646 c 0,0 -47.534,40.276 -47.846,40.565 z M 8.212,31.026 88.651,16.474 27.109,46.189 8.212,31.026 z M 68.72,83.577 49.161,64.767 C 49.15,64.756 49.137,64.749 49.125,64.739 L 43.703,59.519 92.59,18.112 68.72,83.577 z"
+         inkscape:connector-curvature="0"
+         style="fill:#ffffff" />
+      <text
+         id="text4010"
+         font-weight="bold"
+         font-size="5px"
+         y="115"
+         x="0"
+         style="font-size:5px;font-weight:bold;fill:#ffffff;font-family:'\'Helvetica Neue\', Helvetica, Arial-Unicode, Arial, Sans-serif'">Created by Ilsur Aptukov</text>
+      <text
+         id="text4012"
+         font-weight="bold"
+         font-size="5px"
+         y="120"
+         x="0"
+         style="font-size:5px;font-weight:bold;fill:#ffffff;font-family:'\'Helvetica Neue\', Helvetica, Arial-Unicode, Arial, Sans-serif'">from the Noun Project</text>
+    </g>
+    <g
+       id="g4063"
+       transform="matrix(0.36572371,0,0,0.36572371,3,975.47532)"
+       clip-path="url(#clipPath4071)"
+       style="fill:#ffffff">
+      <g
+         id="g4049"
+         style="fill:#ffffff">
+        <path
+           id="path4051"
+           d="M 82.791,62.861 67.985,48.058 82.793,33.249 c 5.212,-5.218 5.212,-13.709 0,-18.921 -2.528,-2.537 -5.894,-3.929 -9.472,-3.929 -3.58,0 -6.947,1.392 -9.468,3.922 L 49.05,29.125 34.251,14.321 c -2.527,-2.524 -5.889,-3.916 -9.462,-3.916 -3.575,0 -6.936,1.392 -9.46,3.916 -2.538,2.53 -3.934,5.9 -3.93,9.485 0.002,3.582 1.403,6.94 3.922,9.454 l 14.791,14.797 -14.8,14.804 c -5.204,5.211 -5.204,13.703 0.011,18.932 2.53,2.524 5.891,3.918 9.466,3.918 3.579,0 6.94,-1.394 9.468,-3.923 L 49.05,66.992 63.863,81.804 c 2.53,2.526 5.887,3.911 9.458,3.911 3.572,0 6.93,-1.385 9.472,-3.923 2.527,-2.528 3.92,-5.893 3.92,-9.466 0,-3.577 -1.396,-6.941 -3.922,-9.465 z"
+           inkscape:connector-curvature="0"
+           style="fill:#ffffff" />
+      </g>
+      <text
+         id="text4053"
+         font-weight="bold"
+         font-size="5px"
+         y="115"
+         x="0"
+         style="font-size:5px;font-weight:bold;fill:#ffffff;font-family:'\'Helvetica Neue\', Helvetica, Arial-Unicode, Arial, Sans-serif'">Created by Alex S. Lakas</text>
+      <text
+         id="text4055"
+         font-weight="bold"
+         font-size="5px"
+         y="120"
+         x="0"
+         style="font-size:5px;font-weight:bold;fill:#ffffff;font-family:'\'Helvetica Neue\', Helvetica, Arial-Unicode, Arial, Sans-serif'">from the Noun Project</text>
+    </g>
+    <g
+       id="g3050"
+       transform="matrix(0.65728491,0,0,0.65728491,27.34835,958.23544)"
+       clip-path="url(#clipPath3850)"
+       style="fill:#ffffff">
+      <g
+         id="g3036"
+         style="fill:#ffffff">
+        <path
+           id="path3038"
+           d="m 50,70.716 c -0.38,0 -0.77,-0.051 -1.19,-0.156 -0.153,-0.042 -0.265,-0.084 -0.376,-0.131 L 48.306,70.382 C 48.116,70.317 47.928,70.246 47.75,70.151 47.533,70.035 25.515,58.143 25.515,44.48 c 0,-8.663 6.026,-15.195 14.018,-15.195 3.526,0 7.555,1.787 10.467,4.558 2.913,-2.771 6.941,-4.558 10.468,-4.558 7.991,0 14.018,6.533 14.018,15.195 0,13.663 -22.018,25.555 -22.24,25.674 -0.176,0.094 -0.362,0.164 -0.551,0.229 -0.006,0.002 -0.103,0.035 -0.108,0.038 -0.13,0.056 -0.242,0.098 -0.359,0.13 -0.457,0.114 -0.847,0.165 -1.228,0.165 z"
+           inkscape:connector-curvature="0"
+           style="fill:#ffffff" />
+      </g>
+      <text
+         id="text3040"
+         font-weight="bold"
+         font-size="5px"
+         y="115"
+         x="0"
+         style="font-size:5px;font-weight:bold;fill:#ffffff;font-family:'\'Helvetica Neue\', Helvetica, Arial-Unicode, Arial, Sans-serif'">Created by Sergey Demushkin</text>
+      <text
+         id="text3042"
+         font-weight="bold"
+         font-size="5px"
+         y="120"
+         x="0"
+         style="font-size:5px;font-weight:bold;fill:#ffffff;font-family:'\'Helvetica Neue\', Helvetica, Arial-Unicode, Arial, Sans-serif'">from the Noun Project</text>
+    </g>
+  </g>
+</svg>

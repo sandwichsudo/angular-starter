@@ -1,0 +1,7 @@
+<nav ng-show="navobject.isNavOpen">
+	<ul class="nav-list">
+		<li ng-repeat="page in navobject.pages">
+			<a href="#" ui-sref="{{::page.id}}">{{::page.name}}</a>
+		</li>
+	</ul>
+</nav>

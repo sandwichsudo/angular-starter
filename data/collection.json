@@ -1,0 +1,17 @@
+[
+	{
+		"id":"thing-1",
+		"title":"First thing",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+	},
+	{
+		"id":"thing-2",
+		"title":"Second thing",
+		"description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+	},
+	{
+		"id":"thing-3",
+		"title":"Third thing",
+		"description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+	}
+]	

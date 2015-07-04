@@ -1,0 +1,94 @@
+@mixin font-face($style-name, $file, $family, $category:"") {
+    $filepath: "../../assets/fonts/" + $family + "/" + $file;
+    @font-face {
+        font-family: "#{$style-name}";
+        src: url($filepath + ".eot");
+        src: url($filepath + ".eot?#iefix") format('embedded-opentype'), url($filepath + ".woff") format('woff'), url($filepath + ".ttf")  format('truetype'), url($filepath + ".svg#" + $style-name + "") format('svg');
+    }
+    %#{$style-name} {
+        font: {
+            @if $category != "" {
+                family: "#{$style-name}", #{$category};
+            }
+            @else {
+                family: "#{$style-name}";
+                weight: normal;
+            }
+        }
+    }
+}
+
+@mixin respond-to($breakpoint) {
+    @media only screen and (max-width: $breakpoint + px) { @content; }
+}
+
+@mixin standard-sprite() {
+    background-image: url($default-sprite-path);
+}
+
+@mixin svg-icon-position-only($row, $col, $x-offset: 0px, $y-offset: 0px, $img-width: $default-icon-width, $img-height: $default-icon-height) {
+    background-position: (-1 * $img-width * ($col - 1) + $x-offset) (-1 * $img-height * ($row - 1) + $y-offset);
+}
+
+@mixin icon-pseudo-element($row,$col,$bottom:auto,$left:auto,$right:auto,$top:auto,$sprite:"default"){
+    content: "";
+    position: absolute;
+    @if($sprite =="default"){
+        @include standard-sprite;   
+        height:$default-icon-height;
+        width:$default-icon-width; 
+        @include svg-icon-position-only($row,$col);
+    }
+    @elseif($sprite =="large"){
+        @include large-sprite;
+         @include svg-icon-position-only($row, $col, $img-width: $large-sprite-width, $img-height: $large-sprite-height);
+    }
+
+
+    bottom:$bottom;
+    left:$left;
+    right:$right;
+    top:$top;
+}
+
+@mixin add-icon($row,$col,$location:'before',$bottom:auto,$left:auto,$right:auto,$top:auto,$sprite:"default"){
+    @if($location=='before'){
+        &:before{
+            @include icon-pseudo-element($row,$col,$bottom:$bottom,$left:$left,$right:$right,$top:$top,$sprite:$sprite);
+        }
+    }
+    @else{
+        &:after{
+            @include icon-pseudo-element($row,$col,$bottom:$bottom,$left:$left,$right:$right,$top:$top,$sprite:$sprite);
+        }
+    }
+}
+
+/**
+ * A mixin which helps you to add depth to elements according to the Google Material Design spec:
+ * http://www.google.com/design/spec/layout/layout-principles.html#layout-principles-dimensionality
+ *
+ * Please note that the values given in the specification cannot be used as is. To create the same visual experience
+ * the blur parameter has to be doubled.
+ *
+ * Author: Florian Kutschera (@gefangenimnetz), Conceptboard GmbH (@conceptboardapp)
+ *
+ */
+ 
+@mixin box-shadow-helper($level: 1){
+    @if $level == 1 {
+        box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    }
+    @else if $level == 2 {
+        box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    }
+    @else if $level == 3 {
+        box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    }
+    @else if $level == 4 {
+        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    }
+    @else if $level == 5 {
+        box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    }
+}
