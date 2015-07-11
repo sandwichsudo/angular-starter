@@ -19,7 +19,8 @@ angular.module('components', [])
     return {
         templateUrl: 'components/templates/itemlist.html',
         scope: {
-          collection: "="
+          collection: "=",
+          page:"="
         }
     };
   })

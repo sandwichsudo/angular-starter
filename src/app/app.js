@@ -1,7 +1,7 @@
 angular.module('app', 
 	['ui.router','ngAnimate', 'components', 
-	'appServices', 'home','detailpage'])
+	'appServices', 'home'])
 
   .run(function ($state) {
-    $state.go('home');
+    $state.go('home.calendar');
   });

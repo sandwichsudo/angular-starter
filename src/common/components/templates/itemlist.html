@@ -1,7 +1,7 @@
 <h3>Collection</h3>
 <ul>
     <li ng-repeat="item in collection">
-    	<a  ui-sref="detailpage({id:item.id})" href="#">
+    	<a ng-click="page.setCurrentItemId(item.id)" href="#">
     		<section>
 				<iteminfo item="item"></iteminfo>		    	
 	    	</section>
